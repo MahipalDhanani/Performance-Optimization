@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default CSS styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition: all ease-in-out 0.3s; */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
