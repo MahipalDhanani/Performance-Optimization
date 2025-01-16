@@ -1,5 +1,6 @@
-import {lazy, React, Suspense } from "react";
+import { lazy, React, Suspense } from "react";
 import "./App.css";
+import Virtualized from "./Components/React Virtualized/Virtualized";
 // import About from "./Components/About";
 // import Home from "./Components/Home";
 
@@ -8,7 +9,7 @@ import "./App.css";
 function App() {
   return (
     <>
-    {/* ............React.lazy and Suspense.............. */}
+      {/* ............React.lazy and Suspense.............. */}
       {/* <div className="p-4 flex justify-center items-center  flex-col">
         <h1>React.lazy and Suspense</h1>
         <Suspense fallback={<h1 className="text-red-500">Home component is Loading......</h1>}>
@@ -19,10 +20,8 @@ function App() {
         </Suspense>
       </div> */}
 
-
-
-
-
+      {/* ............Virtualized.............. */}
+      <Virtualized />
     </>
   );
 }
